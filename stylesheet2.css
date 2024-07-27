@@ -1,0 +1,99 @@
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2em;
+}
+
+.c1 {
+    background-color: white;
+    width: 350px;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    font-size: 14px;
+}
+
+#cart-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#total-price {
+    margin-top: 30px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: darkblue;
+    text-align: center;
+}
+
+button {
+    padding: 8px 25px;
+    color: aliceblue;
+    border-radius: 15%;
+    text-align: center;
+    margin: 20px;
+    background-color: darkgray;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    color: black;
+    background-color: lightgray;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+.quantity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quantity-button {
+    padding: 0 10px;
+    background-color: darkgray;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quantity-input {
+    width: 50px;
+    text-align: center;
+    height: 30px;
+    margin: 0 5px;
+}
+
+.delete-button {
+    margin-top: 15px;
+    background-color: red;
+    color: white;
+}
+.cart{
+    text-align: center;
+    margin-top: 30px;
+}
